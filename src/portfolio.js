@@ -20,7 +20,7 @@ export const contact = {};
 export const socialLinks = {
 	facebook: "https://www.facebook.com/Roni9972/",
 	instagram: "https://www.instagram.com/bird_of_passag_e/",
-	twitter: "https://twitter.com",
+	twitter: "https://twitter.com/RoniPau32705982",
 	github: "https://github.com/Ronipaul99",
 	linkedin: "https://www.linkedin.com/in/roni-paul-979810148/",
 };
