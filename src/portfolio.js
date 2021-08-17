@@ -8,7 +8,7 @@ export const greetings = {
 	description:`A self taught,passionate Full Stack Web Developer having an experience of 
 				building scalable Web applications with JavaScript / Reactjs / Angular / Nodejs / MongoDB  and some other 
 				cool libraries and frameworks and Cross Platform Web applications`,
-	resumeLink: "https://drive.google.com/file/d/1EQws-8MLVu-2W9PkptMHaA3h7Vhts49G/view?usp=sharing",
+	resumeLink: "https://drive.google.com/file/d/1qAx1iOJZ5v4RWLa5VthVPKmULHhj4E-F/view?usp=sharing",
 };
 
 export const openSource = {
