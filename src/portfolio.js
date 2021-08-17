@@ -228,7 +228,6 @@ export const projects = [
 	{
 		name: "EcoProperty",
 		desc: "An Online property Broker",
-		github: "https://github.com/1hanzla100",
 		poients:[
 				'developing various user stories working closely with content management team',
 				'Build robust UI solution with optimized data handeling',
