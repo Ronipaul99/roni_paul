@@ -44,7 +44,7 @@ const ExperienceCard = ({data}) => {
                     <CardTitle tag="h5">{data.role}</CardTitle>
                     <CardSubtitle>{data.date}</CardSubtitle>
                     <Collapse isOpen={isOpen}>
-                        <CardText className="description my-3 text-left">
+                        <div className="description my-3 text-left">
                             {data.desc}
                             <ul>
                                 {
@@ -54,7 +54,7 @@ const ExperienceCard = ({data}) => {
                                     }) : null
                                 }
                             </ul>
-                        </CardText>
+                        </div>
                     </Collapse>
                     
                     <div>

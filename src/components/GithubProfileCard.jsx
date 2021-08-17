@@ -26,7 +26,7 @@ const GithubProfileCard = ({prof}) => {
                         DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY INBOX IS OPEN FOR ALL
                       </p>
                       <p className="text-white mt-3">
-                      <i class="fa fa-envelope"/> : Ronipaul9972@gmail.com
+                      <i className="fa fa-envelope"/> : Ronipaul9972@gmail.com
                       </p>
                       <p className="text-white mt-3">
                         <i className="fa fa-phone"/> : +91 9903245034

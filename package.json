@@ -1,7 +1,6 @@
 {
   "name": "myprofile",
   "version": "0.1.0",
-  "homepage": "https://Ronipaul99.github.io/roni_paul/",
   "dependencies": {
     "@apollo/client": "^3.4.7",
     "@testing-library/jest-dom": "^5.11.4",

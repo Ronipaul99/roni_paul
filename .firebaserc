@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "roni-paul-portfolio"
-  }
+    "default": "roni-paul",
+    "Roni": "roni-paul"
+  },
+  "targets": {}
 }
