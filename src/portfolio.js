@@ -1,14 +1,15 @@
+import { from } from "@apollo/client";
 import emoji from "react-easy-emoji";
 
 import googlelogo from "./assets/img/icons/common/infosys.png";
-
+import CreationSoul from "./assets/img/icons/common/CreationSoul Soft-tech.png";
 export const greetings = {
 	name: "Roni Paul",
 	title: "Hi, I'm Roni",
 	description:`A self taught,passionate Full Stack Web Developer having an experience of 
 				building scalable Web applications with JavaScript / Reactjs / Angular / Nodejs / MongoDB  and some other 
 				cool libraries and frameworks and Cross Platform Web applications`,
-	resumeLink: "https://drive.google.com/file/d/1qAx1iOJZ5v4RWLa5VthVPKmULHhj4E-F/view?usp=sharing",
+	resumeLink: "https://drive.google.com/file/d/1jX8zAfGH16GWE3MGUBY22tOqPj3-CpVt/view?usp=sharing",
 };
 
 export const openSource = {
@@ -169,7 +170,20 @@ export const educationInfo = [
 
 export const experience = [
 	{
-		role: "Syatem Engineer Engineer",
+		role: "Junior Developer",
+		company: "CreationSoul Soft-tech",
+		companylogo: CreationSoul,
+		date: "February 2019 – December 2019",
+		desc: "Working as a React.Js application developer",
+		descBullets:[
+				"Developing and implementing highly responsive user interface components using react concepts.",
+				"Writing application interface codes using JavaScript following react.js workflows.",
+				"Troubleshooting interface software and debugging application codes.",
+				"Developing and implementing front-end architecture to support user interface concepts."
+		]	
+	},
+	{
+		role: "Syatem Engineer",
 		company: "Infosys",
 		companylogo: googlelogo,
 		date: "January 2020 – Present",
