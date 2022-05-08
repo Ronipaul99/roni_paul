@@ -33,7 +33,7 @@ const ExperienceCard = ({data}) => {
         setisOpen(!isOpen)
     }
     return ( 
-        <Col lg="5">
+        <Col lg="4">
         <Fade left duration={1000} distance="40px">
             <Card style={{flex: 1}} className="shadow-lg--hover shadow border-0 text-center rounded">
                 <CardHeader style={{background: rgb(colorArrays)}} >

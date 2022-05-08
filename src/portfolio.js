@@ -3,13 +3,14 @@ import emoji from "react-easy-emoji";
 
 import googlelogo from "./assets/img/icons/common/infosys.png";
 import CreationSoul from "./assets/img/icons/common/CreationSoul Soft-tech.png";
+import Oracle from "./assets/img/icons/common/Oracle-logo.png"
 export const greetings = {
 	name: "Roni Paul",
 	title: "Hi, I'm Roni",
 	description:`A self taught,passionate Full Stack Web Developer having an experience of 
 				building scalable Web applications with JavaScript / Reactjs / Angular / Nodejs / MongoDB  and some other 
 				cool libraries and frameworks and Cross Platform Web applications`,
-	resumeLink: "https://drive.google.com/file/d/1jX8zAfGH16GWE3MGUBY22tOqPj3-CpVt/view?usp=sharing",
+	resumeLink: "https://drive.google.com/file/d/1rYNnzvejZhx--5bkgI0adAVcQyvrmEAB/view?usp=sharing",
 };
 
 export const openSource = {
@@ -170,6 +171,36 @@ export const educationInfo = [
 
 export const experience = [
 	{
+		role: "Software UI Developer",
+		company: "Oracle",
+		companylogo: Oracle,
+		date: "January 2022 – Present",
+		desc: "Working as a OJET UI application developer",
+		descBullets: [
+			"Work in a cross-functional team to deliver a complete user experience",
+			"Working in oracle cloud team to deliver scalable low latency solution for OCI cloud product in Construction domain",
+			"Developing and implementing highly responsive user interface components using OJET concepts",
+			"Working with various technology like OJET , Node.js , OCI cloud , Flask .",
+			"Developing , Deploying and Maintaining to ensure the performance and the overall accessibility of the application."
+		],
+	},
+	{
+		role: "Syatem Engineer",
+		company: "Infosys",
+		companylogo: googlelogo,
+		date: "January 2020 – January 2022",
+		desc: "Working as a MERN stack application developer",
+		descBullets: [
+			"Work in a cross-functional team to deliver a complete user experience",
+			"Building reusable components to ensure efficiency consistency and field proven code",
+			"Unit test the components to ensure code quality and cross functional integrity",
+			"Developing and implementing highly responsive user interface components using react concepts",
+			"Troubleshooting interface software and debugging application codes.",
+			"Monitoring application to Ensure application performance and availability"
+		],
+	},
+	
+	{
 		role: "Junior Developer",
 		company: "CreationSoul Soft-tech",
 		companylogo: CreationSoul,
@@ -182,21 +213,8 @@ export const experience = [
 				"Developing and implementing front-end architecture to support user interface concepts."
 		]	
 	},
-	{
-		role: "Syatem Engineer",
-		company: "Infosys",
-		companylogo: googlelogo,
-		date: "January 2020 – Present",
-		desc: "Working as a MERN stack application developer",
-		descBullets: [
-			"Work in a cross-functional team to deliver a complete user experience",
-			"Building reusable components to ensure efficiency consistency and field proven code",
-			"Unit test the components to ensure code quality and cross functional integrity",
-			"Developing and implementing highly responsive user interface components using react concepts",
-			"Troubleshooting interface software and debugging application codes.",
-			"Monitoring application to Ensure application performance and availability"
-		],
-	},
+	
+
 	// {
 	// 	role: "Front-End Developer",
 	// 	company: "Github",
